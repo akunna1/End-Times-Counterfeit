@@ -14,5 +14,7 @@
 - map/page.tsx, layout.tsx
 - prelude/page.tsx, layout.tsx
 - privacy/page.tsx, layout.tsx
+- search/page.tsx, layout.tsx
+- data/sampledata.ts
 - global.css, layout.tsx, page.tsx
 
