@@ -90,7 +90,7 @@ npm run dev
 * The root `layout.tsx` and `page.tsx` files handle the global structure and homepage content.
 * The map combines **Leaflet.js** and **Mapbox GL JS** for detailed, responsive rendering.
 * Contentful serves as a flexible headless CMS for managing dynamic content.
-* FULL CODE NOTE PROVIDED
+* FULL CODE NOT PROVIDED
 
 ---
 
