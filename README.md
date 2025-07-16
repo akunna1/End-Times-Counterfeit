@@ -33,7 +33,7 @@
 | **contact/page.tsx, layout.tsx** 📞      | How to contact me.                                                                                      |
 | **contribute/page.tsx, layout.tsx** 💳   | Support page for donations or project backing.                                                          |
 | **digest/page.tsx, layout.tsx** 📨       | **The Citadel Newsletter** signup — for updates on new posts and resources.                             |
-| **entries/page.tsx, layout.tsx** 👩🏾‍💻 | Blog area — arguments, articles, and ongoing conversation threads.                                      |
+| **entries/page.tsx, layout.tsx** 👩🏾‍💻 | Blog area — arguments and ongoing conversation threads.                                      |
 | **firebase/config.ts** 📀                | Firebase configuration for auth and backend data.                                                       |
 | **forum/page.tsx, layout.tsx** 🌉        | Description of the blog/forum and how to sign in to join the conversation.                              |
 | **map/page.tsx, layout.tsx** 🗾          | Interactive map of global Christian persecution and related terror networks.                            |
@@ -53,7 +53,7 @@
 * 📨 **The Citadel Newsletter:** Subscribe for updates on new blog posts and arguments.
 * 📝 **Entries (Blog):** A growing library of posts to challenge, clarify, and equip believers.
 * 🌉 **Forum:** Connect with others, share insights, and keep the discussion alive.
-* 🔍 **Search:** Quickly find arguments, posts, or resources.
+* 🔍 **Search:** Quickly find arguments and posts.
 * 🏠 **Homepage resources:** Displays curated images and content — powered by Contentful.
 * 👤 **About & Contact:** Learn my story and how to get in touch.
 
