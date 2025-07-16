@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-**The Counterfeit** is a specialized theology web app for Christians who want to understand the roots of deception within the Church and discern the signs of end-times apostasy. It combines in-depth scriptural arguments, a unique world map of Christian persecution, and a growing forum for believers to share, question, and stand watch together.
+**The Counterfeit** is a focused theology web app for Christians who want to understand deception within the Church and discern the signs of end-times apostasy. It pairs deep scriptural arguments with an interactive map of global Christian persecution — plus a blog, newsletter, and forum to help believers test every spirit together.
 
 ---
 
@@ -14,53 +14,52 @@
 
 * **Framework:** Next.js (React + TypeScript)
 * **Styling:** Tailwind CSS
-* **Map:** Leaflet.js & Mapbox GL JS — to visualize global Christian persecution points and the terror groups behind them.
-* **CMS:** Contentful (headless) — to resources content.
-* **Auth & Data:** Firebase — user authentication, database, and secure data management.
+* **Map:** Leaflet.js & Mapbox GL JS — for the live persecution map and terror group points.
+* **CMS:** Contentful (headless) — used only for the **resources section** on the homepage (images & content).
+* **Auth & Data:** Firebase — for secure user authentication and backend data.
 
 ---
 
 ## 🗂️ Folder Structure (`/src/app`)
 
-**Complete code not provided, but here’s the key structure:**
+> 📌 **Note:** The full source code is **not** provided — only core structure, the root files (`layout.tsx` and `page.tsx` for the homepage), and key configs.
 
 | File/Folder                              | Purpose                                                                                                 |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **about/page.tsx, layout.tsx** 😌        | About me, my story, and the project’s motivation.                                                    |
-| **api/groups/route.ts** 📡               | API route powering the map — handles terrorist group data and persecution points.                       |
+| **about/page.tsx, layout.tsx** 😌        | About me and the project’s motivation.                                                                  |
+| **api/groups/route.ts** 📡               | API route powering the persecution map — handles terrorist group data.                                  |
 | **attestation/page.tsx, layout.tsx** 📖  | The theological argument — uses verses from the Bible and other religious texts to expose counterfeits. |
-| **components/** 🗂️                      | Shared React/TSX components for building the UI.                                                        |
-| **contact/page.tsx, layout.tsx** 📞      | How to reach me directly.                                                                              |
-| **contribute/page.tsx, layout.tsx** 💳   | Support page for donations or contributions.                                                            |
-| **digest/page.tsx, layout.tsx** 📨       | Sign up for **The Citadel Newsletter** — get notified about new posts, arguments, and resources.        |
-| **entries/page.tsx, layout.tsx** 👩🏾‍💻 | The blog — detailed arguments, articles, and ongoing conversation threads.                              |
+| **components/** 🗂️                      | Shared React/TSX UI components.                                                                         |
+| **contact/page.tsx, layout.tsx** 📞      | How to contact me.                                                                                      |
+| **contribute/page.tsx, layout.tsx** 💳   | Support page for donations or project backing.                                                          |
+| **digest/page.tsx, layout.tsx** 📨       | **The Citadel Newsletter** signup — for updates on new posts and resources.                             |
+| **entries/page.tsx, layout.tsx** 👩🏾‍💻 | Blog area — arguments, articles, and ongoing conversation threads.                                      |
 | **firebase/config.ts** 📀                | Firebase configuration for auth and backend data.                                                       |
-| **forum/page.tsx, layout.tsx** 🌉        | Forum description and sign-in instructions — how to join the discussion.                                |
+| **forum/page.tsx, layout.tsx** 🌉        | Description of the blog/forum and how to sign in to join the conversation.                              |
 | **map/page.tsx, layout.tsx** 🗾          | Interactive map of global Christian persecution and related terror networks.                            |
-| **prelude/page.tsx, layout.tsx** 👋🏾    | App introduction page.                                                                       |
-| **privacy/page.tsx, layout.tsx** 🔒      | Privacy policy for transparency.                                                                        |
-| **search/page.tsx, layout.tsx** 🔎       | Handles search functionality from the navbar.                                                           |
-| **data/sampledata.ts** 📈                | Sample search data for navbar search feature.                                                             |
+| **prelude/page.tsx, layout.tsx** 👋🏾    | App introduction page.                                                                                  |
+| **privacy/page.tsx, layout.tsx** 🔒      | Privacy policy.                                                                                         |
+| **search/page.tsx, layout.tsx** 🔎       | Handles the navbar search feature.                                                                      |
+| **data/sampledata.ts** 📈                | Sample data for the search component.                                                                   |
 | **global.css**                           | Global app styles.                                                                                      |
-| **layout.tsx, page.tsx** 🏠              | Root `layout.tsx` and `page.tsx` for overall app shell and homepage structure.                          |
+| **layout.tsx, page.tsx** 🏠              | Root files for the overall app shell and homepage — includes resources section powered by Contentful.   |
 
 ---
 
 ## ✨ Key Features
 
-✅ **What makes The Counterfeit unique?**
-
-* **Unfiltered arguments:** Deep dives into the visions of Daniel, Ezekiel, Revelation, and more — comparing translations and exposing false doctrines.
-* **Interactive map:** Live map showing real-time points of Christian persecution worldwide, including info about active terrorist groups.
-* **Newsletter:** Subscribe to **The Citadel** to get alerts for new arguments, blog entries, and forum discussions.
-* **Entries (Blog):** A growing library of posts that challenge, clarify, and encourage believers to test every spirit.
-* **Forum:** A place to gather — share insights, questions, and continue the conversation.
-* **Search:** Quickly find relevant arguments, blog posts, or references across the site.
-* **About & Contact:** Learn the motivation behind the project — and how to reach out directly.
+* 📜 **In-depth arguments:** Study the visions of Daniel, Ezekiel, Revelation, and more — comparing translations to expose false doctrines.
+* 🗺️ **Persecution map:** Live, interactive map of Christian persecution worldwide with details on the terrorist groups behind attacks.
+* 📨 **The Citadel Newsletter:** Subscribe for updates on new blog posts and arguments.
+* 📝 **Entries (Blog):** A growing library of posts to challenge, clarify, and equip believers.
+* 🌉 **Forum:** Connect with others, share insights, and keep the discussion alive.
+* 🔍 **Search:** Quickly find arguments, posts, or resources.
+* 🏠 **Homepage resources:** Displays curated images and content — powered by Contentful.
+* 👤 **About & Contact:** Learn my story and how to get in touch.
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Getting Started
 
 1️⃣ **Clone the repository:**
 
@@ -75,7 +74,7 @@ npm install
 ```
 
 3️⃣ **Add your Firebase and Contentful configs:**
-Edit `firebase/config.ts` and add your Contentful keys.
+Update `firebase/config.ts` and your Contentful API keys for the homepage resources.
 
 4️⃣ **Run the dev server:**
 
@@ -85,26 +84,25 @@ npm run dev
 
 ---
 
-## 📝 Notes
+## 🗝️ Notes
 
-* The root `layout.tsx` and `page.tsx` files handle the global structure and homepage content.
-* The map combines **Leaflet.js** and **Mapbox GL JS** for detailed, responsive rendering.
-* Contentful serves as a flexible headless CMS for managing dynamic content.
-* FULL CODE NOT PROVIDED
-
----
-
-## 🌍 Contact & Contribute
-
-* Questions or want to get involved? Use the **Contact page**.
-* Contributions — code, theological insight, or prayer — are deeply appreciated.
-* Support The Counterfeit’s mission via the **Contribute page**.
+* ✅ Root `layout.tsx` and `page.tsx` are provided for the global shell and homepage.
+* ✅ The persecution map uses **Leaflet.js** and **Mapbox GL JS**.
+* ✅ **Contentful** is used **only** for the homepage resources section.
+* ✅ The full app code is **not** provided.
 
 ---
 
-## 📜 Closing Thought
+## 🌍 Connect & Contribute
+
+* For questions or ideas, use the **Contact page**.
+* Code, research, or prayer contributions are always welcome.
+* Support **The Counterfeit** through the **Contribute page**.
+
+---
+
+## 📜 Final Word
 
 > *“Let no man deceive you by any means…”* — **2 Thessalonians 2:3 (KJV)**
 
-**May The Counterfeit help you stand firm in the truth — now, and in the days to come.** ✝️
-
+**May The Counterfeit help you stand firm in the truth in these last days.** ✝️
