@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-**The Counterfeit** is a focused theology web app for Christians who want to understand deception within the Church and discern the signs of end-times apostasy. It pairs deep scriptural arguments with an interactive map of global Christian persecution — plus a blog, newsletter, and forum to help believers test every spirit together.
+**The Counterfeit** is a focused theology web app for Christians who want to understand Christian eschatology and what will be the main driving force behind its end-times apostasy. It pairs deep scriptural comparative arguments with an interactive map of global Christian persecution — plus a blog, newsletter, and forum to help believers test every spirit together.
 
 ---
 
